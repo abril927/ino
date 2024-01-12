@@ -12,9 +12,9 @@ const int LED_CARS_RED    = 4;
 const int LED_PED_GREEN   = 5;
 const int LED_PED_RED     = 6;
 
-const int CARS_GO_LENGTH     = 65; 
-const int CARS_YELLOW_LENGTH = 20;
-const int PEDS_GO_LENGTH     = 40;
+const int CARS_GO_LENGTH     = 4000; 
+const int CARS_YELLOW_LENGTH = 1000;
+const int PEDS_GO_LENGTH     = 3000;
 
 // definitions
 enum TrafficState { cars_go = 0, cars_yellow = 1, peds_go = 2};
