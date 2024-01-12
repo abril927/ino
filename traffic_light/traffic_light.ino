@@ -5,16 +5,16 @@
 Scheduler scheduler;
 
 // config
-const int LED_CARS_GREEN  = 2;
-const int LED_CARS_YELLOW = 3;
-const int LED_CARS_RED    = 4;
+const int LED_CARS_GREEN  = 13;
+const int LED_CARS_YELLOW = 12;
+const int LED_CARS_RED    = 11;
 
-const int LED_PED_GREEN   = 5;
-const int LED_PED_RED     = 6;
+const int LED_PED_GREEN   = 9;
+const int LED_PED_RED     = 8;
 
-const int CARS_GO_LENGTH     = 4000; 
+const int CARS_GO_LENGTH     = 3000; 
 const int CARS_YELLOW_LENGTH = 1000;
-const int PEDS_GO_LENGTH     = 3000;
+const int PEDS_GO_LENGTH     = 2000;
 
 // definitions
 enum TrafficState { cars_go = 0, cars_yellow = 1, peds_go = 2};
